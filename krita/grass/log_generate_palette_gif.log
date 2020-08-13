@@ -1,0 +1,114 @@
+ffmpeg version 3.4.6-0ubuntu0.18.04.1 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.3.0-16ubuntu3)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared --enable-version3 --disable-doc --disable-programs --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libtesseract --enable-libvo_amrwbenc
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument '/tmp/KritaFFmpegProgress.P19717'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '8'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument '/home/aditry/Pictures/krita/grass/grass%04d.png'.
+Reading option '-vf' ... matched as option 'vf' (set video filters) with argument 'palettegen'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option '/home/aditry/Pictures/krita/grass/palette.png' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument /tmp/KritaFFmpegProgress.P19717.
+[file @ 0x55a1f8f68b40] Setting default whitelist 'file,crypto'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url /home/aditry/Pictures/krita/grass/grass%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 8.
+Successfully parsed a group of options.
+Opening an input file: /home/aditry/Pictures/krita/grass/grass%04d.png.
+[image2 @ 0x55a1f8f68fa0] Opening '/home/aditry/Pictures/krita/grass/grass0000.png' for reading
+[file @ 0x55a1f8f6b640] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x55a1f8f760a0] Statistics: 229 bytes read, 0 seeks
+[image2 @ 0x55a1f8f68fa0] Opening '/home/aditry/Pictures/krita/grass/grass0001.png' for reading
+[file @ 0x55a1f8f6e5c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x55a1f8f6e660] Statistics: 249 bytes read, 0 seeks
+[image2 @ 0x55a1f8f68fa0] Opening '/home/aditry/Pictures/krita/grass/grass0002.png' for reading
+[file @ 0x55a1f8f6ec40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x55a1f8f6ece0] Statistics: 229 bytes read, 0 seeks
+[image2 @ 0x55a1f8f68fa0] Opening '/home/aditry/Pictures/krita/grass/grass0003.png' for reading
+[file @ 0x55a1f8f6f2c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x55a1f8f6f480] Statistics: 269 bytes read, 0 seeks
+Input #0, image2, from '/home/aditry/Pictures/krita/grass/grass%04d.png':
+  Duration: 00:00:00.16, start: 0.000000, bitrate: N/A
+    Stream #0:0, 4, 1/25: Video: png, 1 reference frame, rgba(pc), 64x34 [SAR 11811:11811 DAR 32:17], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url /home/aditry/Pictures/krita/grass/palette.png.
+Applying option vf (set video filters) with argument palettegen.
+Successfully parsed a group of options.
+Opening an output file: /home/aditry/Pictures/krita/grass/palette.png.
+Successfully opened the file.
+detected 2 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+    Last message repeated 2 times
+[graph 0 input from stream 0:0 @ 0x55a1f8f7c300] Setting 'video_size' to value '64x34'
+[graph 0 input from stream 0:0 @ 0x55a1f8f7c300] Setting 'pix_fmt' to value '28'
+[graph 0 input from stream 0:0 @ 0x55a1f8f7c300] Setting 'time_base' to value '1/8'
+[graph 0 input from stream 0:0 @ 0x55a1f8f7c300] Setting 'pixel_aspect' to value '11811/11811'
+[graph 0 input from stream 0:0 @ 0x55a1f8f7c300] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 0:0 @ 0x55a1f8f7c300] Setting 'frame_rate' to value '8/1'
+[graph 0 input from stream 0:0 @ 0x55a1f8f7c300] w:64 h:34 pixfmt:rgba tb:1/8 fr:8/1 sar:11811/11811 sws_param:flags=2
+[format @ 0x55a1f8f7c800] compat: called with args=[rgb24|rgba|rgb48be|rgba64be|pal8|gray|ya8|gray16be|ya16be|monob]
+[format @ 0x55a1f8f7c800] Setting 'pix_fmts' to value 'rgb24|rgba|rgb48be|rgba64be|pal8|gray|ya8|gray16be|ya16be|monob'
+[auto_scaler_0 @ 0x55a1f8f7ea80] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 0x55a1f8f7ea80] w:iw h:ih flags:'bicubic' interl:0
+[Parsed_palettegen_0 @ 0x55a1f8f7c220] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_palettegen_0'
+[auto_scaler_1 @ 0x55a1f8f80660] Setting 'flags' to value 'bicubic'
+[auto_scaler_1 @ 0x55a1f8f80660] w:iw h:ih flags:'bicubic' interl:0
+[format @ 0x55a1f8f7c800] auto-inserting filter 'auto_scaler_1' between the filter 'Parsed_palettegen_0' and the filter 'format'
+[AVFilterGraph @ 0x55a1f8f7b9a0] query_formats: 4 queried, 1 merged, 2 already done, 0 delayed
+[auto_scaler_1 @ 0x55a1f8f80660] picking rgba out of 9 ref:bgra alpha:1
+[swscaler @ 0x55a1f8f81420] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 0x55a1f8f7ea80] w:64 h:34 fmt:rgba sar:11811/11811 -> w:64 h:34 fmt:bgra sar:1/1 flags:0x4
+[swscaler @ 0x55a1f8f95780] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 0x55a1f8f80660] w:16 h:16 fmt:bgra sar:1/1 -> w:16 h:16 fmt:rgba sar:1/1 flags:0x4
+Output #0, image2, to '/home/aditry/Pictures/krita/grass/palette.png':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0, 0, 1/8: Video: png, 1 reference frame, rgba, 16x16 [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 8 fps, 8 tbn, 8 tbc
+    Metadata:
+      encoder         : Lavc57.107.100 png
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+    Last message repeated 3 times
+[Parsed_palettegen_0 @ 0x55a1f8f7c220] 5(+1) colors generated out of 5 colors; ratio=1.000000
+[Parsed_palettegen_0 @ 0x55a1f8f7c220] Dupped color: FF000E02
+[Parsed_palettegen_0 @ 0x55a1f8f7c220] Dupped color: FF001503
+[swscaler @ 0x55a1f8f95780] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 0x55a1f8f80660] w:16 h:16 fmt:bgra sar:0/1 -> w:16 h:16 fmt:rgba sar:0/1 flags:0x4
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+Clipping frame in rate conversion by 0.000008
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[out_0_0 @ 0x55a1f8f7cca0] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[image2 @ 0x55a1f8f70580] Opening '/home/aditry/Pictures/krita/grass/palette.png' for writing
+[file @ 0x55a1f8fa86a0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x55a1f907b8a0] Statistics: 0 seeks, 1 writeouts
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.12 bitrate=N/A speed=1.74x    
+[AVIOContext @ 0x55a1f8f68e60] Statistics: 0 seeks, 1 writeouts
+video:0kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Input file #0 (/home/aditry/Pictures/krita/grass/grass%04d.png):
+  Input stream #0:0 (video): 4 packets read (976 bytes); 4 frames decoded; 
+  Total: 4 packets (976 bytes) demuxed
+Output file #0 (/home/aditry/Pictures/krita/grass/palette.png):
+  Output stream #0:0 (video): 1 frames encoded; 1 packets muxed (116 bytes); 
+  Total: 1 packets (116 bytes) muxed
+4 frames successfully decoded, 0 decoding errors
